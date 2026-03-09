@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保定立业门窗 - 专业门窗定制</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* 导航栏 */
+        nav {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* 头部横幅 */
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80') center/cover;
+            color: white;
+            text-align: center;
+            padding: 6rem 2rem;
+        }
+
+        .banner h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        /* 产品展示 */
+        .products {
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 1.5rem;
+        }
+
+        .product-info h3 {
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+        }
+
+        /* 联系我们 */
+        .contact {
+            background: #2c3e50;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 0.5rem 0;
+        }
+
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #1a252f;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="logo">保定立业门窗</div>
+        <ul>
+            <li><a href=" ">首页</a ></li>
+            <li><a href="#products">产品</a ></li>
+            <li><a href="#contact">联系我们</a ></li>
+        </ul>
+    </nav>
+
+    <!-- 头部横幅 -->
+    <section class="banner" id="home">
+        <h1>专业门窗定制，守护每一个家</h1>
+        <p>高品质断桥铝、卷帘门、门窗定制一站式解决方案</p >
+        <a href="#contact" class="btn">立即咨询</a >
+    </section>
+
+    <!-- 产品展示 -->
+    <section class="products" id="products">
+        <h2 class="section-title">核心产品</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-info">
+                    <h3>品牌介绍</h3>
+                    <p>保定立业门窗自2007年创立以来，深耕门窗行业十七载，始终以“品质为先，服务为本”为核心理念。初创时期，我们以卷帘门为起点，凭借扎实的工艺与可靠的品质，在本地市场树立了良好口碑。随着市场需求升级，我们逐步拓展业务，引入断桥铝门窗高端产品线，从单一产品供应商转型为一站式门窗解决方案服务商。
+ 如今，立业门窗已成为集设计、生产、安装、售后于一体的专业品牌，服务覆盖家庭、商铺、工业厂房等多元场景。我们坚持选用优质型材与环保材料，用匠心打造每一扇门窗，为万千家庭与企业构筑安全、舒适、美观的生活与工作空间。</p >
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="tupian\断桥铝.jpg"
+                    alt="断桥铝门窗">
+                <div class="product-info">
+                    <h3>断桥铝门窗</h3>
+                    <p>隔音隔热，节能环保，经久耐用</p >
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="tupian\卷帘门.jpg"
+                    alt="卷帘门">
+                <div class="product-info">
+                    <h3>卷帘门</h3>
+                    <p>空间利用率高，操作便捷</p >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section class="contact" id="contact">
+        <h2 class="section-title" style="color:white">联系我们</h2>
+        <p>电话：137-3330-8653</p >
+        <p>地址：河北省保定市</p >
+        <p></p >
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2025 保定立业门窗 版权所有</p >
+    </footer>
+
+    <script>
+        // 平滑滚动到锚点
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
